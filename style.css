@@ -1,4 +1,10 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
   background-color: #f3f3f3;
   font-family: sans-serif;
 }
@@ -6,17 +12,62 @@ body {
   background-color: rgb(198, 252, 252);
   width: 100%;
   height: 140px;
+  border-radius: 0px 0px 50px 50px;
 }
-.header_title {
-  color: darkblue;
-  text-align: center;
-}
-.header h1 {
-  color: #31363d;
 
+.header h1 {
+  color: hsl(215, 93%, 36%);
+  text-align: center;
   padding-top: 50px;
   font-family: "Raleway", sans-serif;
-  font-weight: 300;
-
+  font-weight: 500;
   text-decoration: none;
+}
+
+.container {
+  text-align: center;
+  margin-top: 30px;
+}
+.nav .container li {
+  color: hsl(215, 93%, 36%);
+  display: inline;
+  text-align: center;
+  padding: 0 3px;
+
+  font-style: italic;
+}
+.nav_link {
+  text-decoration: none;
+  display: inline;
+}
+.images {
+  width: 50%;
+  height: 100%;
+}
+.main table tr {
+  text-align: center;
+}
+.main table td {
+  margin: 0 10px;
+}
+.main table {
+  margin-top: 45px;
+}
+.main_text {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 30px;
+}
+.main_line {
+  border: 4px solid pink;
+  margin: 5px 3px;
+}
+
+.footer {
+  background-color: rgb(198, 252, 252);
+  width: 100%;
+  height: 140px;
+}
+.footer p {
+  padding: 20px 10px;
 }
